@@ -1,0 +1,35 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.mainButton{
+  border: 1px solid #090924;
+  background-color: #090924;
+  color: white;
+  cursor: pointer;
+  transition: .4s ease-out;
+  font-weight: 600;
+  text-decoration: none;
+}
+.mainButton:hover{
+  border: 1px solid #090924;
+  color: #090924;
+  background-color: white;
+}
+.mainButton:focus{
+  background-color: #090924;
+  color: white;
+  box-shadow: none;
+}
+
+.form-control:focus {
+  color: #090924;
+  background-color: white;
+  border-color:none;
+  outline: 0;
+  box-shadow: 0!important;
+}
+.form{
+  border: 1px solid #090924;
+}

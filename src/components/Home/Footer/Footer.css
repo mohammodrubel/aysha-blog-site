@@ -1,0 +1,14 @@
+.footer{
+
+    background-color: rgb(9, 9, 36);
+    height: 20vh;
+}
+.socialMedia{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.socialMedia li a i{
+    color: white;
+}
